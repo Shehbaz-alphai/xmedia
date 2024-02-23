@@ -32,7 +32,7 @@ const Design = () => {
             <a href="/contact-us" className="button_buy w-button">
               Contact
             </a>
-            {/* <div className="call opacity">
+            <div className="call opacity">
               <div className="w-embed">
                 <link
                   href="https://assets.calendly.com/assets/external/widget.css"
@@ -53,11 +53,12 @@ const Design = () => {
                   async
                 ></script>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
-      {/* <div className="hero_section hide">
+      {/* committed */}
+      <div className="hero_section hide">
         <div className="container">
           <div className="hero_title hero_design_page_title">
             <div className="div-block-260">
@@ -315,7 +316,7 @@ const Design = () => {
             className="image-96"
           />
         </div>
-      </div> */}
+      </div>
       <div className="hero_section_2">
         <div className="container">
           <div className="hero_title hero_design_page_title">
@@ -452,7 +453,7 @@ const Design = () => {
           </div>
         </div>
       </div>
-      {/* <div
+      <div
         data-w-id="407df700-de64-c316-a218-675e525645fa"
         className="section-20"
       >
@@ -580,7 +581,7 @@ const Design = () => {
             </h1>
           </div>
         </div>
-      </div> */}
+      </div>
       <Lottie animationData={groovyWalkAnimation}    />;
       <div
         data-w-id="20301cc7-6ab1-592d-bff1-220c79476e9e"
@@ -775,326 +776,8 @@ const Design = () => {
           </div>
         </div>
       </div>
-      <div
-        data-w-id="8a4c4501-1838-7678-d27e-30bd4b1310cb"
-        className="flower_section"
-      >
-        <div className="div-block-186">
-          <div className="div-block-187">
-            <div className="oval_1" >
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/61161520828f086e7200a158_oval_6.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-            <div className="oval2" >
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/611614f0086c3e24378be50e_oval_3.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-            <div className="oval3" >
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/611614c51f14201af9505152_oval_1.svg"
-                loading="lazy"
-                alt=""
-                className="image-63"
-              />
-            </div>
-            <div className="oval4">
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/611614e00e5bc7020b91d538_oval_2.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-            <div className="oval5" >
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/61161516f1a7be416fe4811b_oval_5.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-            <div className="oval6" >
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/611614feda18aabd76e10b85_oval_4.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-          </div>
-          <div id="process_design" className="div-block-188">
-            <h1 className="heading-37">Working Processes</h1>
-            <div className="div-block-270">
-              <div
-                data-w-id="aa7b86f5-9b99-5bfa-1996-fe5b4c8f4c86"
-                className="immersion"
-              >
-                <h1 className="heading-60" data-scroll data-scroll-speed='2'> 
-                  <strong className="bold-text-41">Immersion</strong>
-                </h1>
-                <div className="div-block-271">
-                  <div className="text-block-40">
-                    Going deep into client’s business to understand its core
-                    sense, goals and challenges to build partnership.
-                  </div>
-                </div>
-                <div id="process_id_working" className="process_id"></div>
-              </div>
-              <div
-                data-w-id="f3216017-5437-9941-2ae2-5ae2f2562934"
-                className="immersion ideation"
-              >
-                <h1 className="heading_ideation">
-                  <strong className="bold-text-41 bold_ideation">
-                    Ideation
-                  </strong>
-                </h1>
-                <div className="div-block-271">
-                  <div className="text-block-40">
-                    Creating first concepts of a future product and shaping up
-                    the direction.
-                  </div>
-                </div>
-              </div>
-              <div
-                data-w-id="14666d86-2d6f-40ae-89fe-867c2906ae2b"
-                className="immersion ideation wireframing"
-              >
-                <h1 className="heading_ideation">
-                  <strong className="bold-text-41 bold_ideation bold_wireframing">
-                    Wireframing
-                  </strong>
-                </h1>
-                <div className="div-block-271">
-                  <div className="text-block-40">
-                    Building the foundation, structure and core elements of a
-                    digital product.
-                  </div>
-                </div>
-              </div>
-              <div
-                data-w-id="bb762b71-defc-cfc5-9b4d-c6e354eeab61"
-                className="immersion ideation wireframing visual-design"
-              >
-                <h1 className="heading_visual">
-                  <strong className="bold-text-41 bold_ideation bold_wireframing bold_visual">
-                    Visual Design
-                  </strong>
-                </h1>
-                <div className="div-block-271">
-                  <div className="text-block-40">
-                    Adding colors, illustrations and shapes to create visual
-                    language that resonates with customers.
-                  </div>
-                </div>
-              </div>
-              <div className="immersion ideation wireframing handoff-support">
-                <h1 className="heading_handoff">
-                  <strong className="bold-text-41 bold_ideation bold_wireframing bold">
-                    Handoff &amp; Support 
-                  </strong>
-                </h1>
-                <div className="div-block-271">
-                  <div className="text-block-40">
-                    Sending all finalised deliverables and providing further
-                    support.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <div
-            data-w-id="ce0a4902-0a35-6a43-edd5-b8f9fc062f3c"
-            className="div-block-272"
-          ></div>
-          <div
-            data-w-id="67ebfe84-49a3-d143-a95c-6faa7d366ec2"
-            className="div-block-272 bg_ideation"
-          ></div>
-          <div
-            data-w-id="2e8cefe2-effa-119a-11d6-96dcb6dbabc7"
-            className="div-block-272 bg_wireframing"
-          ></div>
-          <div
-            data-w-id="7ddc08c8-1774-029d-bee8-2c43c5144dc2"
-            className="div-block-272 bg_visual"
-          ></div>
-          <div
-            data-w-id="c5fcf9fd-726f-7d05-df43-2e0d1834d8af"
-            className="div-block-272 bg_handoff"
-          ></div> */}
-        </div>
-      </div>
-      <div
-        data-w-id="56118c11-8066-3b6f-d92c-e6ef0ee830b6"
-        className="flower_section flower_1440"
-      >
-        <div className="div-block-186 block_flower_1440">
-          <div className="div-block-187 flower_animation_1440">
-            <div className="oval_1">
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/61161520828f086e7200a158_oval_6.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-            <div className="oval2">
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/611614f0086c3e24378be50e_oval_3.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-            <div className="oval3">
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/611614c51f14201af9505152_oval_1.svg"
-                loading="lazy"
-                alt=""
-                className="image-63"
-              />
-            </div>
-            <div className="oval4">
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/611614e00e5bc7020b91d538_oval_2.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-            <div className="oval5">
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/61161516f1a7be416fe4811b_oval_5.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-            <div className="oval6">
-              <img
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/611614feda18aabd76e10b85_oval_4.svg"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-          </div>
-          <div
-            id="process_design"
-            className="div-block-188 content_flower_1440"
-          >
-            <h1 className="heading-37 heading_flower_1440">
-              <br /> Working Process
-            </h1>
-            <div className="div-block-270 animation_popup_1440">
-              <div className="immersion immersion_1440">
-                <div>
-                  <h1 className="heading-60">
-                    <strong className="bold-text-41">Immersion</strong>
-                  </h1>
-                  <div className="div-block-271">
-                    <div className="text-block-40">
-                      Going deep into client’s business to understand its core
-                      sense, goals and challenges to build partnership.
-                    </div>
-                  </div>
-                </div>
-                <div id="process_id_working" className="process_id"></div>
-              </div>
-              <div className="immersion ideation ideation_1440">
-                <div >
-                  <h1 className="heading_ideation">
-                    <strong className="bold-text-41 bold_ideation">
-                      Ideation
-                    </strong>
-                  </h1>
-                  <div className="div-block-271">
-                    <div className="text-block-40">
-                      Creating first concepts of a future product and shaping up
-                      the direction.
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <h1 className="heading_ideation">
-                    <strong className="bold-text-41 bold_ideation">
-                      Ideation
-                    </strong>
-                  </h1>
-                  <div className="div-block-271">
-                    <div className="text-block-40">
-                      Creating first concepts of a future product and shaping up
-                      the direction.
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <h1 className="heading_ideation">
-                    <strong className="bold-text-41 bold_ideation">
-                      Ideation
-                    </strong>
-                  </h1>
-                  <div className="div-block-271">
-                    <div className="text-block-40">
-                      Creating first concepts of a future product and shaping up
-                      the direction.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="immersion ideation wireframing wireframes_1440">
-                <div>
-                  <h1 className="heading_ideation">
-                    <strong className="bold-text-41 bold_ideation bold_wireframing">
-                      Wireframing
-                    </strong>
-                  </h1>
-                  <div className="div-block-271">
-                    <div className="text-block-40">
-                      Building the foundation, structure and core elements of a
-                      digital product.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="immersion ideation wireframing visual-design visual_1440">
-                <div>
-                  <h1 className="heading_visual">
-                    <strong className="bold-text-41 bold_ideation bold_wireframing bold_visual">
-                      Visual Design
-                    </strong>
-                  </h1>
-                  <div className="div-block-271">
-                    <div className="text-block-40">
-                      Adding colors, illustrations and shapes to create visual
-                      language that resonates with customers.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="immersion ideation wireframing handoff-support handoff_1440">
-                <div>
-                  <h1 className="heading_handoff">
-                    <strong className="bold-text-41 bold_ideation bold_wireframing bold">
-                      Handoff &amp; Support 
-                    </strong>
-                  </h1>
-                  <div className="div-block-271">
-                    <div id="process_working" className="text-block-40">
-                      Sending all finalised deliverables and providing further
-                      support.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="div-block-272"></div>
-          <div className="div-block-272 bg_ideation"></div>
-          <div className="div-block-272 bg_wireframing"></div>
-          <div className="div-block-272 bg_visual"></div>
-          <div className="div-block-272 bg_handoff"></div>
-        </div>
-      </div>
+    {/* router */}
+     
       <div
         data-w-id="74481a97-a893-acb7-8e9c-58bb6358749e"
         className="mobile_animation_scroll"
@@ -2917,7 +2600,7 @@ const Design = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+
     </div>
   );
 };

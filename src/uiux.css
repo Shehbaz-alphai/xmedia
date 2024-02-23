@@ -1,0 +1,182 @@
+.main-uiux{
+    background:rgb(242, 242, 242,1); 
+    padding: 180px 40px 40px;
+}
+.h2-uiux-content{
+  
+        --framer-font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "System Default", sans-serif;
+        --framer-font-size: 38px;
+        --framer-font-style: normal;
+        --framer-font-weight: 400;
+        --framer-letter-spacing: 0em;
+        --framer-line-height: 1.3em;
+        --framer-paragraph-spacing: 0px;
+        --framer-text-alignment: start;
+        --framer-text-color: var(--token-2a5e3b76-a8c1-4907-a047-960818f39d34, #404040);
+        --framer-text-decoration: none;
+        --framer-text-transform: none;
+  
+}
+.p-uiux-content{
+    --framer-font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "System Default", sans-serif;
+    --framer-font-size: 14px;
+    --framer-font-style: normal;
+    --framer-font-weight: 400;
+    --framer-letter-spacing: 0em;
+    --framer-line-height: 1.8em;
+    --framer-paragraph-spacing: 0px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-8122382b-8059-4965-b86d-88f5a7814281, #444444);
+    --framer-text-decoration: none;
+    --framer-text-transform: none;
+}
+.row-uiux{
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    transform: perspective(1200px);
+    width: 100%;
+}
+.framer-10lbt6j{
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    transform: perspective(1200px);
+    width: 100%;
+
+}
+
+ .framer-1hzy5e0 {
+    --framer-link-text-color: #0099ff;
+    --framer-link-text-decoration: underline;
+    flex: none;
+    height: auto;
+    max-width: 440px;
+    position: relative;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+    z-index: 1;
+}
+.framer-styles-preset-1n7q7jx{
+    --framer-font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "System Default", sans-serif;
+    --framer-font-size: 38px;
+    --framer-font-style: normal;
+    --framer-font-weight: 400;
+    --framer-letter-spacing: 0em;
+    --framer-line-height: 1.3em;
+    --framer-paragraph-spacing: 0px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-2a5e3b76-a8c1-4907-a047-960818f39d34, #404040);
+    --framer-text-decoration: none;
+    --framer-text-transform: none;
+}
+.framer-9nkvw4 {
+    --framer-link-text-color: #0099ff;
+    --framer-link-text-decoration: underline;
+    flex: none;
+    height: auto;
+    position: relative;
+    white-space: pre-wrap;
+    width: 70%;
+    word-break: break-word;
+    word-wrap: break-word;
+    z-index: 1;
+}
+.framer-styles-preset-116c5it  {
+    --framer-font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "System Default", sans-serif;
+    --framer-font-size: 14px;
+    --framer-font-style: normal;
+    --framer-font-weight: 400;
+    --framer-letter-spacing: 0em;
+    --framer-line-height: 1.8em;
+    --framer-paragraph-spacing: 0px;
+    --framer-text-alignment: start;
+    --framer-text-color: var(--token-8122382b-8059-4965-b86d-88f5a7814281, #444444);
+    --framer-text-decoration: none;
+    --framer-text-transform: none;
+}
+.framer-s3l36j{
+    --border-bottom-width: 1px;
+    --border-color: var(rgba(255, 255, 255, .65));
+    --border-left-width: 1px;
+    --border-right-width: 1px;
+    --border-style: solid;
+    --border-top-width: 1px;
+    align-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    border-radius: 25px;
+    box-shadow: 0 1px 2px #00000026;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: var(--framer-aspect-ratio-supported, 640px);
+    justify-content: center;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+    width: 1px;
+    will-change: var(--framer-will-change-override, transform);
+    z-index: 0;
+}
+.framer-z53hdf{
+    align-content: flex-start;
+    align-items: flex-start;
+    border-radius: 25px;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 50px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 40px;
+    position: relative;
+    width: 1px;
+    z-index: 0;
+}
+@media (max-width: 809px){
+   .framer-10lbt6j{
+    flex-direction: column;
+    gap: 25px;
+    transform: unset;
+    }
+}
+@media (max-width: 809px){
+    .framer-z53hdf{
+        flex: none;
+        gap: 35px;
+        padding: 25px;
+        width: 100%;
+     }
+ }
+ @media (max-width: 809px){
+    .framer-s3l36j {
+        flex: none;
+        height: var(auto, 340px);
+        width: 100%;
+    }
+ }

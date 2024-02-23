@@ -31,7 +31,6 @@ const About = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    // Cleanup the event listener when the component is unmounted
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -198,7 +197,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         id="values_about"
         data-w-id="815bc5a1-cd73-64fd-8834-8a39d4e8f08e"
         className="our_values"
@@ -335,9 +334,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
   <Clients/>
-  <OutcrowdStory/>
+  {/* <OutcrowdStory/> */}
   <div className="photo_gallery">
       <div className="text_gallery">
         <div className="text-block-44">
@@ -525,7 +524,7 @@ const About = () => {
                 </div>
         </div>
       </div>
-      {/* Add more loop_block_outer elements for additional loops if needed */}
+
     </div>
     <div>
       <div data-w-id="7be3e532-3bf5-6485-fd5f-2f00c4855a95" className="illustration_section">
