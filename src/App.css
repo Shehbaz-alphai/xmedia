@@ -2923,7 +2923,7 @@ img {
   width: 34px;
   height: 34px;
   max-width: none;
-  background-image: url("https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/6091286771343e4e66831f99_logo.png");
+  background-image: url("/public/logo.png");
   background-position: 50%;
   background-repeat: repeat;
   background-size: 42px;

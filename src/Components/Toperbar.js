@@ -11,40 +11,40 @@ const Toperbar = () => {
       className="navbar w-nav"
     >
       <div className="navbar w-container">
-        <a
-          href="/"
+        <Link
+          to="/"
           aria-current="page"
           className="brand w-nav-brand w--current"
         >
           <img
-            src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/6091286771343e4e66831f99_logo.png"
+            src="/logo.png"
             loading="lazy"
             alt=""
             className="image"
           />
-        </a>
+        </Link>
         <nav role="navigation" className="nav-menu nav_404 w-nav-menu">
-          <a href="/design" className="nav-link w-nav-link">
+          <Link to="/design" className="nav-link w-nav-link">
             Design
-          </a>
-          <a href="/branding" className="nav-link w-nav-link">
+          </Link>
+          <Link to="/branding" className="nav-link w-nav-link">
             Branding
-          </a>
-          <a href="/uiux" className="nav-link w-nav-link">
+          </Link>
+          <Link to="/uiux" className="nav-link w-nav-link">
           UI UX
-          </a>
-          <a href="/development" className="nav-link w-nav-link">
+          </Link>
+          <Link to="/development" className="nav-link w-nav-link">
             Development
-          </a>
-          <a href="/about" className="nav-link w-nav-link">
+          </Link>
+          <Link to="/about" className="nav-link w-nav-link">
             About
-          </a>
-          {/* <a href="/blog" className="nav-link blog_link w-nav-link">
+          </Link>
+          <Link to="/blog" className="nav-link blog_link w-nav-link">
             Blog
-          </a> */}
-          <a href="/contactus" className="nav-link w-nav-link">
+          </Link>
+          <Link to="/contactus" className="nav-link w-nav-link">
             Contact
-          </a>
+          </Link>
         
         </nav>
   

@@ -12,6 +12,7 @@ import Toperbar from "./Components/Toperbar";
 import Footer from "./Components/Footer";
 import Development from "./Pages/Development";
 import Uiux from "./Pages/Uiux";
+import Blog from "./Pages/Blog";
 function App() {
   // const scrollRef = useRef(null);
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/branding" element={<Branding />} />
           <Route path="/development" element={<Development />} />
           <Route path="/uiux" element={<Uiux/>} />
+          <Route path="/blog" element={<Blog/>} />
           <Route path="*" element={<div>NOT FOUND</div>} />
         </Routes>
          <Footer/>
