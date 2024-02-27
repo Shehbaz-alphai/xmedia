@@ -20,6 +20,7 @@ const Toperbar = () => {
             src="/logo.png"
             loading="lazy"
             alt=""
+            style={{width:'40px'}}
             className="image"
           />
         </Link>

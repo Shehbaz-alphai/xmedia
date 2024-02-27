@@ -23366,3 +23366,17 @@ img {
   white-space: normal;
 }
 
+
+.nav-button.red {
+  background-color: #fd515b;
+}
+.nav-button {
+  background-color: #12171f;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background-color .2s ease-in-out;
+  transform: skew(-9deg);
+}

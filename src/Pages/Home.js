@@ -1,13 +1,397 @@
 import React from "react";
 import Footer from "../Components/Footer";
-
+import "../Home.css";
+// import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 const Home = () => {
-   
-    const backgroundUrl =
+  const backgroundUrl =
     "https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/613627a64e717d76e154a64c_splash screen-3-poster-00001.jpg";
   return (
     <div>
-      <div className="ck-cookie-w">
+      <div className="section top-section">
+        <div className="full-width-container w-container">
+          <div className="columns w-row">
+            <div className="column-5 w-col w-col-6">
+              <div className="mobile-headlines">
+                <h1 className="mobile-h1">
+                  We scale businesses sustainably and profitably
+                </h1>
+                <div className="subheadline-mobile">
+                  &quot;We help brands and businesses to unlock their
+                  potential&quot;
+                </div>
+              </div>
+              <img
+                src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min.jpg"
+                loading="lazy"
+                sizes="(max-width: 479px) 92vw, (max-width: 767px) 91vw, 100vw"
+                srcset="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min-p-500.jpg 500w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min-p-800.jpg 800w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min-p-1080.jpg 1080w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min.jpg 1543w"
+                alt=""
+                className="image-2"
+              />
+              <div className="side-text-banner">
+                <h1 className="heading-2 hide-mobile">
+                  We scale businesses sustainably and profitably
+                </h1>
+                <div className="micro-distance hide-desktop"></div>
+                <p className="center-mobile">
+                  Our team is dedicated to partnering with your company to
+                  develop the optimal strategy and to deliver premier campaigns
+                  that drive profitable growth.
+                </p>
+                <div className="micro-distance"></div>
+                <img
+                  src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642b18faff7b7f975cea5a2c_6142063af923edbc03088332_small-references.jpg"
+                  loading="lazy"
+                  sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 44vw, (max-width: 1279px) 36vw, 430px"
+                  srcset="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642b18faff7b7f975cea5a2c_6142063af923edbc03088332_small-references-p-500.jpg 500w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642b18faff7b7f975cea5a2c_6142063af923edbc03088332_small-references-p-800.jpg 800w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642b18faff7b7f975cea5a2c_6142063af923edbc03088332_small-references-p-1080.jpg 1080w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642b18faff7b7f975cea5a2c_6142063af923edbc03088332_small-references-p-1600.jpg 1600w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642b18faff7b7f975cea5a2c_6142063af923edbc03088332_small-references.jpg 1766w"
+                  alt=""
+                />
+                <div className="micro-distance"></div>
+                <div className="butons-banner">
+                  <div className="micro-distance"></div>
+                  <div className="vertical-micro-space"></div>
+                  <a
+                    data-w-id="f96b54ca-ebb4-60cb-d9e8-4e96300ce8b3"
+                    href="#"
+                    className="nav-button red w-button"
+                  >
+                    Let&#x27;s Talk
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="side-col-desktop-visible w-col w-col-6">
+              <img
+                src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min.jpg"
+                loading="lazy"
+                sizes="(max-width: 767px) 100vw, (max-width: 1279px) 46vw, 530px"
+                srcset="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min-p-500.jpg 500w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min-p-800.jpg 800w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min-p-1080.jpg 1080w, https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/65151f264f98a9deb8fbaa8d_Banner%20Google-min.jpg 1543w"
+                alt=""
+                className="sidepicture-desktop"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="small-distance"></div>
+      </div>
+      <div className="section services">
+        <div className="container w-container">
+          <div className="small-distance"></div>
+          <h3 className="heading">Your Performance is our Mission</h3>
+          <div className="collection-list-wrapper-4 w-dyn-list">
+            <div role="list" className="collection-list-6 w-dyn-items">
+              <div
+                id="w-node-_972c0403-42b7-675a-f599-7faf8f220786-8f22077f"
+                role="listitem"
+                className="collection-item-5 w-dyn-item"
+              >
+                <a
+                  href=""
+                  className="card service-card w-inline-block"
+                >
+                  <div className="columns-2 w-row">
+                    <div className="column w-col w-col-6 w-col-stack">
+                      <div className="headline-name-card-with-icon">
+                        <div className="name-card">Search Engine Advertising</div>
+                        <img
+                          src="https://assets-global.website-files.com/642846c1f48759793ab13754/642b067cb118d28a3e20cd1c_search-refraction.svg"
+                          loading="lazy"
+                          alt=""
+                          className="image-4"
+                        />
+                      </div>
+                      <div className="micro-distance"></div>
+                      <p>We believe in numbers</p>
+                      <div className="micro-distance"></div>
+                      <div className="left-align">
+                        <div className="read-more-service">
+                          <div className="cta-text">Start Campaigns with Us</div>
+                          <img
+                            src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642e885247d6ad405beb7e59_read_more.svg"
+                            loading="lazy"
+                            alt=""
+                            className="read-more-iarrow"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        backgroundImage:
+                          'url("https://assets-global.website-files.com/642846c1f48759793ab13754/642e814fb248cc359b729bac_search-engine-advetising.jpg")',
+                      }}
+                      className="column-2 w-col w-col-6 w-col-stack"
+                    >
+                      <div className="image-fit-for-cards"></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                id="w-node-_972c0403-42b7-675a-f599-7faf8f220786-8f22077f"
+                role="listitem"
+                className="collection-item-5 w-dyn-item"
+              >
+                <a
+                  href=""
+                  className="card service-card w-inline-block"
+                >
+                  <div className="columns-2 w-row">
+                    <div className="column w-col w-col-6 w-col-stack">
+                      <div className="headline-name-card-with-icon">
+                        <div className="name-card">Google Analytics 4 Setup</div>
+                        <img
+                          src="https://assets-global.website-files.com/642846c1f48759793ab13754/642b061705ac762b359b157e_pie-chart-01.svg"
+                          loading="lazy"
+                          alt=""
+                          className="image-4"
+                        />
+                      </div>
+                      <div className="micro-distance"></div>
+                      <p>
+                        Google Analyitcs 4 has superpowers, but is your company
+                        already using those superpowers?
+                      </p>
+                      <div className="micro-distance"></div>
+                      <div className="left-align">
+                        <div className="read-more-service">
+                          <div className="cta-text">
+                            Implement Analytics like a Pro
+                          </div>
+                          <img
+                            src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642e885247d6ad405beb7e59_read_more.svg"
+                            loading="lazy"
+                            alt=""
+                            className="read-more-iarrow"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        backgroundImage:
+                          'url("https://assets-global.website-files.com/642846c1f48759793ab13754/642e815d2afb8666149826a4_anayltics.jpg")',
+                      }}
+                      className="column-2 w-col w-col-6 w-col-stack"
+                    >
+                      <div className="image-fit-for-cards"></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="w-dyn-list">
+            <div role="list" className="collection-list-8 w-dyn-items">
+              <div
+                id="w-node-_972c0403-42b7-675a-f599-7faf8f22079b-8f22077f"
+                role="listitem"
+                className="collection-item-5 w-dyn-item"
+              >
+                <a
+                  href=""
+                  className="card service-card w-inline-block"
+                >
+                  <div className="columns-2 w-row">
+                    <div className="column-7 w-col w-col-6">
+                      <div className="headline-name-card-with-icon">
+                        <div className="name-card">Growth Strategy Consulting</div>
+                        <img
+                          src="https://assets-global.website-files.com/642846c1f48759793ab13754/642b0662c5abc83edb6312ac_compass-03.svg"
+                          loading="lazy"
+                          alt=""
+                          className="image-4"
+                        />
+                      </div>
+                      <div className="micro-distance"></div>
+                      <p>
+                        Our young team of digital natives not only helps with
+                        sales, but also with strategic decisions for many of our
+                        clients.
+                      </p>
+                      <div className="micro-distance"></div>
+                      <div className="left-align">
+                        <div className="read-more-service">
+                          <div className="cta-text">
+                            Start working on the Strategy
+                          </div>
+                          <img
+                            src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642e885247d6ad405beb7e59_read_more.svg"
+                            loading="lazy"
+                            alt=""
+                            className="read-more-iarrow"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="column-8 w-col w-col-6">
+                      <img
+                        src="https://assets-global.website-files.com/642846c1f48759793ab13754/649304c9158858924f047b28_642e812d874aa7bcefed846c_conssulting.jpg"
+                        loading="lazy"
+                        alt=""
+                        sizes="(max-width: 479px) 85vw, (max-width: 767px) 87vw, (max-width: 991px) 44vw, (max-width: 1279px) 41vw, 516.5px"
+                        srcset="https://assets-global.website-files.com/642846c1f48759793ab13754/649304c9158858924f047b28_642e812d874aa7bcefed846c_conssulting-p-500.jpg 500w, https://assets-global.website-files.com/642846c1f48759793ab13754/649304c9158858924f047b28_642e812d874aa7bcefed846c_conssulting-p-800.jpg 800w, https://assets-global.website-files.com/642846c1f48759793ab13754/649304c9158858924f047b28_642e812d874aa7bcefed846c_conssulting-p-1080.jpg 1080w, https://assets-global.website-files.com/642846c1f48759793ab13754/649304c9158858924f047b28_642e812d874aa7bcefed846c_conssulting-p-1600.jpg 1600w, https://assets-global.website-files.com/642846c1f48759793ab13754/649304c9158858924f047b28_642e812d874aa7bcefed846c_conssulting.jpg 1700w"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="collection-list-wrapper-5 w-dyn-list">
+            <div role="list" className="collection-list-7 w-dyn-items">
+              <div
+                id="w-node-_972c0403-42b7-675a-f599-7faf8f2207b0-8f22077f"
+                role="listitem"
+                className="w-dyn-item"
+              >
+                <a
+                  href=""
+                  className="card service-card _4-on-4 w-inline-block" style={{textDecoration:'none'}}
+                >
+                  <div className="headline-name-card-with-icon">
+                    <div className="name-card">Creatives that Convert</div>
+                    <img
+                      src="https://assets-global.website-files.com/642846c1f48759793ab13754/642b061705ac762b359b157e_pie-chart-01.svg"
+                      loading="lazy"
+                      alt=""
+                      className="image-4"
+                    />
+                    <div className="micro-distance"></div>
+                  </div>
+                  <p className="paragraph-3">
+                    We produce, test and optimize your creatives - and repeat!
+                  </p>
+                  <div className="micro-distance"></div>
+                  <div className="left-align">
+                    <div className="read-more-service">
+                      <div className="cta-text">Get Creatives that convert</div>
+                      <img
+                        src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642e885247d6ad405beb7e59_read_more.svg"
+                        loading="lazy"
+                        alt=""
+                        className="read-more-iarrow"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                id="w-node-_972c0403-42b7-675a-f599-7faf8f2207b0-8f22077f"
+                role="listitem"
+                className="w-dyn-item"
+              >
+                <a
+                  href=""
+                  className="card service-card _4-on-4 w-inline-block" style={{textDecoration:'none'}}
+                >
+                  <div className="headline-name-card-with-icon">
+                    <div className="name-card">Lead Funnel Optimization</div>
+                    <img
+                      src="https://assets-global.website-files.com/642846c1f48759793ab13754/642b0f36bccfa689ab92566c_filter-funnel-01.svg"
+                      loading="lazy"
+                      alt=""
+                      className="image-4"
+                    />
+                    <div className="micro-distance"></div>
+                  </div>
+                  <p className="paragraph-3">
+                    We increase numbers with our lead funnel frameworks
+                  </p>
+                  <div className="micro-distance"></div>
+                  <div className="left-align">
+                    <div className="read-more-service">
+                      <div className="cta-text">Increase your Conversionrate</div>
+                      <img
+                        src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642e885247d6ad405beb7e59_read_more.svg"
+                        loading="lazy"
+                        alt=""
+                        className="read-more-iarrow"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                id="w-node-_972c0403-42b7-675a-f599-7faf8f2207b0-8f22077f"
+                role="listitem"
+                className="w-dyn-item"
+              >
+                <a
+                  href=""
+                  className="card service-card _4-on-4 w-inline-block" style={{textDecoration:'none'}}
+                >
+                  <div className="headline-name-card-with-icon">
+                    <div className="name-card">LinkedIn Advertising</div>
+                    <img
+                      src="https://assets-global.website-files.com/642846c1f48759793ab13754/642b06d9da9d5fb5296becd0_target-05%20(1).svg"
+                      loading="lazy"
+                      alt=""
+                      className="image-4"
+                    />
+                    <div className="micro-distance"></div>
+                  </div>
+                  <p className="paragraph-3">
+                    Account-based marketing for the perfect reach and precise
+                    targeting
+                  </p>
+                  <div className="micro-distance"></div>
+                  <div className="left-align">
+                    <div className="read-more-service">
+                      <div className="cta-text">Start Campaigns with Us</div>
+                      <img
+                        src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642e885247d6ad405beb7e59_read_more.svg"
+                        loading="lazy"
+                        alt=""
+                        className="read-more-iarrow"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                id="w-node-_972c0403-42b7-675a-f599-7faf8f2207b0-8f22077f"
+                role="listitem"
+                className="w-dyn-item"
+              >
+                <a
+                  href=""
+                  className="card service-card _4-on-4 w-inline-block" style={{textDecoration:'none'}}
+                >
+                  <div className="headline-name-card-with-icon">
+                    <div className="name-card">Social Media Management</div>
+                    <img
+                      src="https://assets-global.website-files.com/642846c1f48759793ab13754/64996e10316050d1d90a20fb_social-media.svg"
+                      loading="lazy"
+                      alt=""
+                      className="image-4"
+                    />
+                    <div className="micro-distance"></div>
+                  </div>
+                  <p className="paragraph-3">
+                    Everything from Creatives to Publishing and Reporting
+                  </p>
+                  <div className="micro-distance"></div>
+                  <div className="left-align">
+                    <div className="read-more-service">
+                      <div className="cta-text">Social Media Start</div>
+                      <img
+                        src="https://assets-global.website-files.com/64283df369d01c4dbc0b2a5d/642e885247d6ad405beb7e59_read_more.svg"
+                        loading="lazy"
+                        alt=""
+                        className="read-more-iarrow"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="small-distance"></div>
+        </div>
+      </div>
+
+      {/* <div className="ck-cookie-w">
         <div className="ck-css-styles w-embed"></div>
         <div fs-cc="banner" className="ck-modal">
           <a
@@ -51,7 +435,7 @@ const Home = () => {
             🇺🇦 Support Ukrainians affected by the war in Ukraine
           </a>
         </div>
-      </div>
+      </div> */}
       <div fs-cc="preferences" className="ck-preference-w">
         <div fs-cc="close" className="ck-preference__bg"></div>
         <div className="ck-preference__scroll-w">
@@ -102,7 +486,11 @@ const Home = () => {
                       name="fs__marketing"
                       data-name="Fs Marketing"
                       fs-cc-checkbox="marketing"
-                      style={{opacity:'0',position:'absolute',zIndex:'-1'}}
+                      style={{
+                        opacity: "0",
+                        position: "absolute",
+                        zIndex: "-1",
+                      }}
                     />
                     <span
                       for="fs__marketing"
@@ -123,7 +511,11 @@ const Home = () => {
                       name="fs__personalization"
                       data-name="Fs Personalization"
                       fs-cc-checkbox="personalization"
-                      style={{opacity:'0',position:'absolute',zIndex:'-1'}}
+                      style={{
+                        opacity: "0",
+                        position: "absolute",
+                        zIndex: "-1",
+                      }}
                     />
                     <span
                       for="fs__personalization"
@@ -146,7 +538,11 @@ const Home = () => {
                       name="fs__analytics"
                       data-name="Fs Analytics"
                       fs-cc-checkbox="analytics"
-                      style={{opacity:'0',position:'absolute',zIndex:'-1'}}
+                      style={{
+                        opacity: "0",
+                        position: "absolute",
+                        zIndex: "-1",
+                      }}
                     />
                     <span
                       for="fs__analytics"
@@ -191,53 +587,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="hero_home_page">
-        <div className="title_home_hero">
-          <h1 className="heading-51">
-            <strong className="bold-text-80">Toyota new vision</strong>
-          </h1>
-          <div className="div-block-246">
-            <div className="text-block-38">The one that is perfect for you</div>
-          </div>
-          <div className="div-block-631">
-            <a href="/cases/toyota-promo" className="button-11 w-button">
-              Learn more
-            </a>
-          </div>
-        </div>
-        <div className="div-block-264"></div>
-        <div className="div-block-364">
-          <div
-            data-poster-url="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/613627a64e717d76e154a64c_splash screen-3-poster-00001.jpg"
-            data-video-urls="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/613627a64e717d76e154a64c_splash screen-3-transcode.mp4,https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/613627a64e717d76e154a64c_splash screen-3-transcode.webm"
-            data-autoplay="true"
-            data-loop="true"
-            data-wf-ignore="true"
-            data-beta-bgvideo-upgrade="false"
-            className="background-video-2 w-background-video w-background-video-atom"
-          >
-            <video
-              id="670014f0-3716-f7b9-7bf0-5d38976ff133-video"
-              autoplay=""
-              loop=""
-              style={{ backgroundImage: `url(${backgroundUrl})` }}
-              muted=""
-              playsinline=""
-              data-wf-ignore="true"
-              data-object-fit="cover"
-            >
-              <source
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/613627a64e717d76e154a64c_splash screen-3-transcode.mp4"
-                data-wf-ignore="true"
-              />
-              <source
-                src="https://assets-global.website-files.com/609124aa26f8d4863c88a6d9/613627a64e717d76e154a64c_splash screen-3-transcode.webm"
-                data-wf-ignore="true"
-              />
-            </video>
-          </div>
-        </div>
-      </div>
+
       <div className="home_design_section">
         <div className="content_design_home">
           <div className="design_title_home">
