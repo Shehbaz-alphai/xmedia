@@ -34,7 +34,7 @@ const Home = () => {
   //     setTranslate3d("-1158px,0px,0px");
   //   }
   // };
-  const Slide = ({ title, description, active, handleButtonClick }) => (
+  const Slide = ({ title, description, active,  }) => (
     <div
       className={`card-block__slide slick-slide ${
         active ? "slick-current slick-active" : "prev-slides"
@@ -56,10 +56,10 @@ const Home = () => {
       </div>
     </div>
   );
-  const Slider = ({ slides, activeButtonIndex }) => (
+  const Slider = ({ slides }) => (
     <Swiper
     pagination={{ clickable: true }}
-    spaceBetween={100}
+    spaceBetween={10}
     slidesPerView={3}
     initialSlide={activeIndex}
     className="swiper-container"
@@ -516,7 +516,7 @@ const Home = () => {
                         className="slick-track"
                         style={{
                           opacity: 1,
-                          width: "1250px",
+                          width: "1100px",
                           // transform: `translate3d(${translate3d})`,
                           // transition: transition,
                         }}

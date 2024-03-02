@@ -12387,6 +12387,7 @@ button.fullwidth-block__slide-next{
 }
 .card-block__slide-description {
     font-weight: 300;
+	line-height: 20px;
 }
 .card-block__slider .slick-dots {
     margin-top: 50px;
@@ -12451,4 +12452,19 @@ a.active {
 	-ms-transform:scale(1)!important;
 	transform: scale(1)!important;
 }
- 
+ @media screen and (max-width:576px) {
+	.card-block__slide{
+		width: 300px !important;
+	}
+	.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+		width: 38% !important;
+		 }
+ }
+ @media screen and (max-width:280px) {
+	.card-block__slide{
+		width: 200px !important;
+	}
+	.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+		width: 20% !important;
+		 }
+ }
