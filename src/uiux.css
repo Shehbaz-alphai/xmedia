@@ -1,13 +1,13 @@
 /* .main-uiux{
     background:rgb(242, 242, 242,1); 
     padding: 180px 40px 40px;
-}
-@media (min-width: 1400px){
+} */
+@media (max-width: 560px){
     .main-uiux{
-        background:rgb(242, 242, 242,1); 
-        padding: 180px 280px 40px;
+      
+        padding: 0px !important;
     }
- } */
+ } 
  .framer-kyfkZ.framer-t7knpo {
     align-content: center;
     align-items: center;
